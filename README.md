@@ -1,2 +1,2 @@
 # ansible-test-project
-Used for testing Ansible
+Used for learning sbout and testing what I am learnong about Ansible
