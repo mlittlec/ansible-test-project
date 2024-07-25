@@ -1,0 +1,9 @@
+--- 
+ - name: Playbook for podman.
+   hosts: fedora.example.com
+   tasks:
+    - name: Stopping httpd container.
+       containers.podman.podman_container:
+         name: my-first-container
+         image:  docker.io/httpd:2-alpine
+         state: absent
