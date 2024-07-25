@@ -1,0 +1,9 @@
+—
+– name: First playbook
+   hosts: fedora.example.com
+   become: yes
+  tasks:
+    – name: Installing podman.
+      yum:
+        name: podman
+       state: present
