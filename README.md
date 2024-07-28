@@ -4,4 +4,4 @@ Used for learning sbout and testing what I am learnong about Ansible.  This may 
 
 ### ToDo
 
-- Provide details of directory purpose and contents.
+- Provide details of directory purpose and the individual contents.
