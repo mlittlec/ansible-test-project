@@ -1,5 +1,5 @@
 --- 
- - name: Playbook for podman.
+ - name: Pull an HTTPD server image for podman.
     hosts: fedora.example.com
     tasks:
      - name: Pull httpd:2-alpine image from dockerhub.
